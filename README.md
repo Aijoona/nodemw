@@ -93,6 +93,7 @@ Config file is a JSON-encoded object with the following fields (see ``/examples/
       "debug": false,                // is more verbose when set to true
       "username": "foo",             // account to be used when logIn is called (optional)
       "password": "bar",             // password to be used when logIn is called (optional)
+      "domain": "custom_ldap",       // domain name for authentication (optional)
       "userAgent": "Custom UA",      // define custom bot's user agent
       "concurrency": 5               // how many API requests can be run in parallel (defaults to 3)
 }
